@@ -1,62 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimnasio Fitness</title>
+    <title>Fit House Functional Training</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Gimnasio Fitness</h1>
+            <img src="img gym/logo.jpeg" alt="Logo de Fit House Functional Training" style="width: 200px; height: auto;">
+            
+
+        <nav>
+            <div class="logo">
+                <h1>Fit House</h1>
+                <h2>Functional Training</h2>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="#about">Acerca de</a></li>
-                    <li><a href="#classes">Clases</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#entrenamiento">Entrenamiento</a></li>
+                    <li><a href="#clases">Clases</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="about">
+    <section id="inicio" class="hero">
         <div class="container">
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos un gimnasio dedicado a ayudarte a alcanzar tus objetivos de fitness. Ofrecemos una amplia variedad de clases y equipos de alta calidad.</p>
+            <h2>Transforma tu cuerpo</h2>
+            <p>Con nuestros entrenamientos personalizados y clases grupales</p>
+            <a href="#" class="btn">¡Empieza Ahora!</a>
         </div>
     </section>
 
-    <section id="classes">
+    <section id="entrenamiento" class="services">
+        <div class="container">
+            <h2>Nuestro Entrenamiento</h2>
+            <div class="service">
+                <h3>Entrenamiento Personalizado</h3>
+                <p>Te ofrecemos un entrenamiento adaptado a tus necesidades y objetivos individuales.</p>
+            </div>
+            <div class="service">
+                <h3>Clases Grupales</h3>
+                <p>Disfruta de clases en grupo con nuestro equipo de instructores certificados.</p>
+            </div>
+            <div class="service">
+                <h3>Entrenamiento Online</h3>
+                <p>Accede a nuestros programas de entrenamiento desde cualquier lugar con conexión a internet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clases" class="classes">
         <div class="container">
             <h2>Nuestras Clases</h2>
-            <ul>
-                <li>Clase de Cardio</li>
-                <li>Entrenamiento con Pesas</li>
-                <li>Yoga</li>
-                <li>Pilates</li>
-            </ul>
+            <div class="class">
+                <h3>Yoga</h3>
+                <p>Mejora tu flexibilidad y bienestar mental con nuestras clases de yoga.</p>
+            </div>
+            <div class="class">
+                <h3>Zumba</h3>
+                <p>Diviértete y quema calorías al ritmo de la música con nuestras clases de Zumba.</p>
+            </div>
+            <div class="class">
+                <h3>Spinning</h3>
+                <p>Desafía tus límites y mejora tu resistencia con nuestras clases de spinning.</p>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En Fit House Functional Training, nos comprometemos a brindarte el mejor entrenamiento posible para ayudarte a alcanzar tus objetivos de fitness. Nuestro equipo de entrenadores certificados te guiará en cada paso del camino.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
         <div class="container">
             <h2>Contacto</h2>
+            <p>¡Contáctanos para más información o para programar tu primera sesión de entrenamiento!</p>
             <form action="#">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Enviar</button>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo Electrónico">
+                <textarea placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar Mensaje</button>
             </form>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Gimnasio Fitness. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Fit House Functional Training. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
